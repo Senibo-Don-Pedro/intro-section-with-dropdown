@@ -17,7 +17,8 @@ const Hero = () => {
         <div className=' px-5 sm:px-0 text-center sm:text-left  flex flex-col'>
           <div className='my-auto flex flex-col gap-10'>
             <h1 className='text-4xl font-bold sm:text-7xl mt-10 sm:mt-0'>
-              Make <br className='hidden sm:block' /> remote work
+              Make <br className='hidden sm:block' />
+              remote work
             </h1>
             <p className='text-QMediumGray sm:mr-14 font-medium'>
               Get your team in sync, no matter your location. Streamline
@@ -30,7 +31,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className='flex items-center justify-between sm:w-[80%]'>
+          <div className='flex flex-wrap items-center justify-between sm:w-[80%]'>
             <img className='w-20 ' src={Client1} alt='clients' />
             <img className='w-14 ' src={Client2} alt='clients' />
             <img className='w-20' src={Client3} alt='clients' />
